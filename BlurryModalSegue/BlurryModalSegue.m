@@ -7,9 +7,9 @@
 //
 
 #import "BlurryModalSegue.h"
-#import <QuartzCore/QuartzCore.h>
-#import <UIImage+BlurredFrame/UIImage+ImageEffects.h>
-#import <MZAppearance/MZAppearance.h>
+@import QuartzCore;
+@import UIImage+BlurredFrame;
+@import MZAppearance;
 
 static UIImageOrientation ImageOrientationFromInterfaceOrientation(UIInterfaceOrientation orientation) {
     switch (orientation)
