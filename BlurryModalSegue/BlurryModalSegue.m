@@ -8,7 +8,7 @@
 
 #import "BlurryModalSegue.h"
 @import QuartzCore;
-@import UIImage+BlurredFrame;
+@import UIImage_BlurredFrame;
 @import MZAppearance;
 
 static UIImageOrientation ImageOrientationFromInterfaceOrientation(UIInterfaceOrientation orientation) {
